@@ -1,0 +1,12 @@
+.normal{
+
+    letter-spacing: normal;
+}
+
+.espaciado{
+    letter-spacing: 4px;
+}
+
+.negativo{
+    letter-spacing: -2px;
+}

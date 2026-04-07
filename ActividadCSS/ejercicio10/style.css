@@ -1,0 +1,27 @@
+body{
+
+    text-decoration: none;
+
+}
+
+.sin-decoracion{
+
+    text-decoration: inherit;
+
+}
+
+.encima{
+
+    text-decoration: overline;
+
+}
+
+.medio{
+
+    text-decoration: line-through;
+}
+
+.abajo{
+    
+    text-decoration: underline;
+}

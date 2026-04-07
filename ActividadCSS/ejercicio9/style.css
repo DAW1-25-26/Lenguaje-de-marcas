@@ -1,0 +1,15 @@
+div p:first-child {
+
+    text-align: center;
+    font-weight: bold;
+
+}
+
+div {
+
+    background-color: rgb(39, 115, 255);
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+
+}

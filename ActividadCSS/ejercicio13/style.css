@@ -1,0 +1,14 @@
+.normal{
+
+    word-spacing: normal;
+}
+
+.espaciado{
+
+    word-spacing: 8px;
+}
+
+.reducido{
+
+    word-spacing: -2px;
+}

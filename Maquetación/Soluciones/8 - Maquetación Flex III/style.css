@@ -1,0 +1,157 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.page-wrapper {
+    width: 95%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.header-moodle {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo-sitio {
+    font-family: "Times New Roman", serif;
+    font-size: 2rem;
+}
+
+.login-info a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.nav-moodle {
+    background-color: #5F7A48;
+    color: white;
+    padding: 10px 20px;
+}
+
+.nav-moodle ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;    
+}
+
+.zona-principal {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.bloque-lateral {
+    width: 20%;     
+    min-width: 200px;
+    background-color: #ccc;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.bloque-header {
+    background-color: #ddd;
+    padding: 10px;
+    border-bottom: 1px solid #aaa;
+    text-align: left;
+}
+
+.bloque-content {
+    padding: 10px;
+    background-color: #e0e0e0;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.img-logo {
+    width: 90%;
+    height: auto;
+    border-radius: 50%;
+    background: white;
+    padding: 10px;
+}
+
+.img-calendario {
+    width: 100%;
+}
+
+.bloque-central {
+    width: 56%;
+    display: flex;
+    align-items: center;
+}
+
+.img-full {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid #ccc;
+}
+
+.zona-categorias h3 {
+    background-color: #ddd;
+    padding: 5px 10px;
+    border: 1px solid #aaa;
+    border-bottom: none;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.categorias-box {
+    background-color: #e0e0e0;
+    border: 1px solid #aaa;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.lista-cursos {
+    list-style: none;
+    color: #333;
+    font-weight: bold;
+    line-height: 1.8;
+}
+
+.img-arbol {
+    width: 60px;
+}
+
+.footer-moodle {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-moodle a {
+    color: blue;
+}

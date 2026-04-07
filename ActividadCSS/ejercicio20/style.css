@@ -1,0 +1,6 @@
+.parrafo::first-line {
+
+    font-size: 30px;
+    font-weight: bold;
+    color : green
+}

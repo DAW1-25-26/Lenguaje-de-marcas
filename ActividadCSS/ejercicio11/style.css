@@ -1,0 +1,19 @@
+.sin-transformacion{
+
+    text-transform: none;
+}
+
+.capitalize{
+
+    text-transform: capitalize;
+}
+
+.mayuscula{
+
+    text-transform: uppercase;
+}
+
+.minuscula{
+
+    text-transform: lowercase;
+}

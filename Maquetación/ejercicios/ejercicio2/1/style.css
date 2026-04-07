@@ -1,0 +1,43 @@
+/* Marco exterior */
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #eee;
+}
+
+/* Títulos */
+h1{
+  text-align: center;          /* centra el texto */
+  margin: 20px 10px 20px 10px;
+  padding: 8px;
+  border: solid 1px black;
+  background: #ddd;
+  font-size: 18px;
+}
+
+/* DIV donde está el texto en línea */
+div:nth-of-type(2){
+  text-align: center;          /* CLAVE → centra elementos en línea */
+  padding: 40px 0;             /* espacio arriba y abajo */
+}
+
+/* Texto en línea */
+span{
+  border: 2px solid #6c6cff;
+  padding: 4px 10px;
+  background: #f5f5ff;
+}
+
+/* Sección de bloques */
+div:nth-of-type(3){
+  padding: 20px 0 40px 0;
+}
+
+/* Párrafos centrados */
+p{
+  width: 70%;                  /* ancho de la “caja” */
+  margin: 15px auto;           /* centra horizontalmente */
+  border: 2px solid #6c6cff;
+  padding: 10px;
+  background: #f5f5ff;
+}

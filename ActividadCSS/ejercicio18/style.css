@@ -1,0 +1,12 @@
+#padre {
+
+    border-color: green;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#padre p:last-child{
+
+    color: violet;
+    font-size: 20px;
+}

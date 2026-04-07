@@ -1,0 +1,8 @@
+
+article:nth-child(1) {
+    float:left;
+}
+
+article:nth-child(2) {
+    float:right;
+}

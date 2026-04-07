@@ -1,0 +1,15 @@
+aside{
+
+    display: flex;
+    background-color: turquoise;
+}
+
+main{
+
+    background-color: sandybrown;
+}
+
+article{
+
+    background-color:lightgreen;
+}

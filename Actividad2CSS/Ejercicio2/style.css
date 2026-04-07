@@ -1,0 +1,36 @@
+h1 {
+    background-color: rgb(83, 83, 193);
+}
+
+h2 {
+    background-color: greenyellow;
+}
+
+p { 
+    color: black;
+}
+
+#primero {
+    background-color: beige;
+}
+
+#primero > p {
+    color: blue;
+}
+
+#primero > em {
+    background-color: rgb(53, 128, 53);
+}
+
+#primero > strong {
+    background-color: pink;
+}
+
+#segundo > em {
+    background-color: grey;
+}
+
+.normal {
+    border: solid 3px;
+    border-color: blue;
+}

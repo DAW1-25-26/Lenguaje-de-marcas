@@ -1,0 +1,13 @@
+#padre {
+
+    border-color: green;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#padre p:first-child {
+
+    color: red;
+    font-size: 20px;
+}
+
