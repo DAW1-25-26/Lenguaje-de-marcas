@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Actividad 6</title>
+        <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="container mx-0 mt-2">
+            <h1>Añade nuevos elementos a la lista cada vez que se pulse el botón</h1>
+            <h2>Lista:</h2>
+            <ul id="listaA">
+                <li>Juan Amador Rubio</li>
+                <li>Gonzalo Astudillo Ortega</li>
+                <li>Luis Blanco Moyano</li>
+                <li>Ana Cabezas Berjillos</li>
+            </ul>
+            <div class="pt-3">
+                <form id="formulario">
+                    <label for="listat" class="form-label"><b>Nombre:</b></label>
+                    <textarea class="form-control" id="listat" rows="2" cols="1" placeholder="Nombre..." style="border: solid black 2px;width: 600px;"></textarea>
+                    <button type="button" class="mt-2" style="border:solid black 1px;" id="boton">Añadir elemento</button>
+                    <button type="button" class="mt-2" style="border:solid black 1px;" id="botonBorrar">Borrar elemento</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
