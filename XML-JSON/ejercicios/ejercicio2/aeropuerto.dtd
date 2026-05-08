@@ -1,0 +1,20 @@
+<!ELEMENT aeropuerto (nombre, codigo, ubicacion, terminales, servicios)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT ubicacion (ciudad, pais)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT terminales (terminal+)>
+<!ELEMENT terminal (nombre, aerolineas, puertas)>
+<!ATTLIST terminal 
+    id NMTOKEN #REQUIRED
+>
+<!ELEMENT aerolineas (aerolinea+)>
+<!ELEMENT aerolinea (#PCDATA)>
+<!ELEMENT puertas (puerta+)>
+<!ELEMENT puerta (#PCDATA)>
+<!ATTLIST puerta 
+    numero ID #REQUIRED
+>
+<!ELEMENT servicios (servicio+)>
+<!ELEMENT servicio (#PCDATA)>

@@ -1,0 +1,22 @@
+<!ELEMENT clinica_veterinaria (nombre, ubicacion, doctores, pacientes)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT ubicacion (ciudad, pais)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT doctores (doctor+)>
+<!ELEMENT doctor (nombre, especialidad, experiencia)>
+<!ATTLIST doctor 
+    id NMTOKEN #REQUIRED
+>
+<!ELEMENT especialidad (#PCDATA)>
+<!ELEMENT experiencia (#PCDATA)>
+<!ELEMENT pacientes (mascota+)>
+<!ELEMENT mascota (nombre, tipo, raza, edad,dueño)>
+<!ATTLIST mascota 
+    id NMTOKEN #REQUIRED
+>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT raza (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT dueño (nombre, telefono)>
+<!ELEMENT telefono (#PCDATA)>

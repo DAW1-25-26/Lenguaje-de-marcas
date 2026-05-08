@@ -1,0 +1,7 @@
+<!ELEMENT mensajes (mensaje?)>
+<!ELEMENT mensaje (de, para, hora, texto, strong)>
+<!ELEMENT de (#PCDATA)>
+<!ELEMENT para (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT texto (#PCDATA)>
+<!ELEMENT strong (#PCDATA)>

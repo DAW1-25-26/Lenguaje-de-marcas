@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clinica_veterinaria SYSTEM "clinica-veterinaria.dtd">
+<clinica_veterinaria>
+    <nombre>Clínica PetCare</nombre>
+    <ubicacion>
+        <ciudad>Ciudad Veterinaria</ciudad>
+        <pais>País de las Mascotas</pais>
+    </ubicacion>
+    <doctores>
+        <doctor id="1">
+            <nombre>Dr. Ana García</nombre>
+            <especialidad>Caninos</especialidad>
+            <experiencia>10 años</experiencia>
+        </doctor>
+        <doctor id="2">
+            <nombre>Dra. Carlos Martínez</nombre>
+            <especialidad>Felinos</especialidad>
+            <experiencia>8 años</experiencia>
+        </doctor>
+    </doctores>
+    <pacientes>
+        <mascota id="101">
+            <nombre>Milo</nombre>
+            <tipo>Perro</tipo>
+            <raza>Labrador Retriever</raza>
+            <edad>3 años</edad>
+            <dueño>
+                <nombre>Lucía Rodríguez</nombre>
+                <telefono>555-7890</telefono>
+            </dueño>
+        </mascota>
+        <mascota id="102">
+            <nombre>Miau</nombre>
+            <tipo>Gato</tipo>
+            <raza>Siamés</raza>
+            <edad>2 años</edad>
+            <dueño>
+                <nombre>Pablo López</nombre>
+                <telefono>555-1234</telefono>
+            </dueño>
+        </mascota>
+    </pacientes>
+</clinica_veterinaria>

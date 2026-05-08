@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE liga_de_voleibol SYSTEM "voleibol.dtd">
+<liga_de_voleibol>
+    <partido id="1">
+        <equipos>
+            <equipo local="true">
+                <nombre>Equipo A</nombre>
+                <puntuacion>25</puntuacion>
+            </equipo>
+            <equipo local="false">
+                <nombre>Equipo B</nombre>
+                <puntuacion>20</puntuacion>
+            </equipo>
+        </equipos>
+        <fecha>2024-03-15</fecha>
+        <hora>18:00</hora>
+        <lugar>Arena Deportiva</lugar>
+    </partido>
+    <partido id="2">
+        <equipos>
+            <equipo local="true">
+                <nombre>Equipo C</nombre>
+                <puntuacion>22</puntuacion>
+            </equipo>
+            <equipo local="false">
+                <nombre>Equipo D</nombre>
+                <puntuacion>25</puntuacion>
+            </equipo>
+        </equipos>
+        <fecha>2024-03-16</fecha>
+        <hora>19:30</hora>
+        <lugar>Centro Recreativo</lugar>
+    </partido>
+    <partido id="3">
+        <equipos>
+            <equipo local="true">
+                <nombre>Equipo A</nombre>
+                <puntuacion>23</puntuacion>
+            </equipo>
+            <equipo local="false">
+                <nombre>Equipo D</nombre>
+                <puntuacion>25</puntuacion>
+            </equipo>
+        </equipos>
+        <fecha>2024-03-17</fecha>
+        <hora>20:15</hora>
+        <lugar>Pabellón Deportivo</lugar>
+    </partido>
+</liga_de_voleibol>

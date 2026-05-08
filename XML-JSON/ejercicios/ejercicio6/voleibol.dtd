@@ -1,0 +1,15 @@
+<!ELEMENT liga_de_voleibol (partido+)>
+<!ELEMENT partido (equipos+, fecha, hora, lugar)>
+<!ATTLIST partido 
+    id NMTOKEN #REQUIRED
+>
+<!ELEMENT equipos (equipo+)>
+<!ELEMENT equipo (nombre, puntuacion)>
+<!ATTLIST equipo 
+    local (true | false) #REQUIRED
+>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT puntuacion (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT lugar (#PCDATA)>

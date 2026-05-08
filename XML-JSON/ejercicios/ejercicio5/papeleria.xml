@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE papeleria SYSTEM "papeleria.dtd">
+<papeleria>
+    <nombre>PapelArte</nombre>
+    <ubicacion>
+        <ciudad>Ciudad Papel</ciudad>
+        <pais>Papelonia</pais>
+    </ubicacion>
+    <productos>
+        <producto id="101">
+            <nombre>Cuaderno Rayado</nombre>
+            <categoria>Material de Escritura</categoria>
+            <precio>5.99</precio>
+            <stock>100</stock>
+        </producto>
+        <producto id="102">
+            <nombre>Lápices HB</nombre>
+            <categoria>Material de Dibujo</categoria>
+            <precio>1.25</precio>
+            <stock>200</stock>
+        </producto>
+        <producto id="103">
+            <nombre>Papel Carta (Paquete 100 hojas)</nombre>
+            <categoria>Papel</categoria>
+            <precio>8.99</precio>
+            <stock>50</stock>
+        </producto>
+    </productos>
+    <clientes>
+        <cliente id="201">
+            <nombre>Marta Sánchez</nombre>
+            <direccion>
+                <calle>Calle Papelito</calle>
+                <ciudad>Ciudad Papel</ciudad>
+            </direccion>
+            <email>marta@example.com</email>
+        </cliente>
+        <cliente id="202">
+            <nombre>Javier Pérez</nombre>
+            <direccion>
+                <calle>Avenida Papelería</calle>
+                <ciudad>Ciudad Papel</ciudad>
+            </direccion>
+            <email>javier@example.com</email>
+        </cliente>
+    </clientes>
+    <ventas>
+        <venta id="301" fecha="2024-04-01" cliente_id="201">
+            <producto id="101" cantidad="3"/>
+            <producto id="102" cantidad="5"/>
+        </venta>
+        <venta id="302" fecha="2024-04-02" cliente_id="202">
+            <producto id="103" cantidad="2"/>
+        </venta>
+    </ventas>
+</papeleria>

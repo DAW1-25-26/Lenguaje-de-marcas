@@ -1,0 +1,15 @@
+<!ELEMENT recetas (receta)>
+<!ELEMENT receta (nombre, comensales, ingredientes, proceso)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT comensales (#PCDATA)>
+<!ELEMENT ingredientes (ingrediente+)>
+<!ELEMENT ingrediente (nombre, cantidad?)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ATTLIST cantidad 
+    unidad CDATA #REQUIRED
+>
+<!ELEMENT proceso (paso+)>
+<!ELEMENT paso (#PCDATA)>
+<!ATTLIST paso
+    numero NMTOKEN #REQUIRED
+> 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aeropuerto SYSTEM "aeropuerto.dtd">
+<aeropuerto>
+    <nombre>Aeropuerto Internacional</nombre>
+    <codigo>IATA: ABC</codigo>
+    <ubicacion>
+        <ciudad>Ciudad ABC</ciudad>
+        <pais>País XYZ</pais>
+    </ubicacion>
+    <terminales>
+        <terminal id="1">
+            <nombre>Terminal A</nombre>
+            <aerolineas>
+                <aerolinea>Cia. Aérea 1</aerolinea>
+                <aerolinea>Cia. Aérea 2</aerolinea>
+            </aerolineas>
+            <puertas>
+                <puerta numero="A1" />
+                <puerta numero="A2" />
+                <puerta numero="A3" />
+            </puertas>
+        </terminal>
+        <terminal id="2">
+            <nombre>Terminal B</nombre>
+            <aerolineas>
+                <aerolinea>Cia. Aérea 3</aerolinea>
+                <aerolinea>Cia. Aérea 4</aerolinea>
+            </aerolineas>
+            <puertas>
+                <puerta numero="B1" />
+                <puerta numero="B2" />
+                <puerta numero="B3" />
+            </puertas>
+        </terminal>
+    </terminales>
+    <servicios>
+        <servicio>Restaurante</servicio>
+        <servicio>Tienda Duty-Free</servicio>
+        <servicio>Salas VIP</servicio>
+    </servicios>
+</aeropuerto>

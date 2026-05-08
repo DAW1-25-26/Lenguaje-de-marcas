@@ -1,0 +1,14 @@
+<!ELEMENT productos_informaticos (categoria+)>
+<!ELEMENT categoria (nombre, producto+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT producto (nombre, marca, precio, almacenamiento?, ram?, tipo?, iluminacion?, compatibilidad?)>
+<!ATTLIST producto 
+    id NMTOKEN #REQUIRED
+>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT almacenamiento (#PCDATA)>
+<!ELEMENT ram (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT iluminacion (#PCDATA)>
+<!ELEMENT compatibilidad (#PCDATA)>

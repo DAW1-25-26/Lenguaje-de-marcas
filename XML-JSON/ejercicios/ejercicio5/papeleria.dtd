@@ -1,0 +1,29 @@
+<!ELEMENT papeleria (nombre, ubicacion, productos, clientes, ventas)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT ubicacion (ciudad, pais)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT productos (producto+)>
+<!ELEMENT producto (nombre?, categoria?, precio?, stock?)>
+<!ATTLIST producto 
+    id NMTOKEN #REQUIRED
+    cantidad NMTOKEN #IMPLIED
+>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT stock (#PCDATA)>
+<!ELEMENT clientes (cliente+)>
+<!ELEMENT cliente (nombre, direccion, email)>
+<!ATTLIST cliente 
+    id NMTOKEN #REQUIRED
+>
+<!ELEMENT direccion (calle, ciudad)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT ventas (venta+)>
+<!ELEMENT venta (producto+)>
+<!ATTLIST venta 
+    id NMTOKEN #REQUIRED
+    fecha CDATA #IMPLIED
+    cliente_id NMTOKEN #REQUIRED
+>

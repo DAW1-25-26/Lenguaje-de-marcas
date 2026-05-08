@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE productos_informaticos SYSTEM "informaticos.dtd">
+<productos_informaticos>
+    <categoria>
+        <nombre>Laptops</nombre>
+        <producto id="101">
+            <nombre>Laptop Ultrabook</nombre>
+            <marca>MarcaX</marca>
+            <precio>999.99</precio>
+            <almacenamiento>256GB SSD</almacenamiento>
+            <ram>8GB</ram>
+        </producto>
+        <producto id="102">
+            <nombre>Laptop Gaming</nombre>
+            <marca>MarcaY</marca>
+            <precio>1499.99</precio>
+            <almacenamiento>1TB HDD + 256GB SSD</almacenamiento>
+            <ram>16GB</ram>
+        </producto>
+    </categoria>
+    <categoria>
+        <nombre>Periféricos</nombre>
+        <producto id="201">
+            <nombre>Ratón Inalámbrico</nombre>
+            <marca>MarcaA</marca>
+            <precio>29.99</precio>
+            <tipo>Bluetooth</tipo>
+        </producto>
+        <producto id="202">
+            <nombre>Teclado Mecánico</nombre>
+            <marca>MarcaB</marca>
+            <precio>79.99</precio>
+            <iluminacion>RGB</iluminacion>
+        </producto>
+    </categoria>
+    <categoria>
+        <nombre>Accesorios</nombre>
+        <producto id="301">
+            <nombre>Auriculares Gaming</nombre>
+            <marca>MarcaC</marca>
+            <precio>59.99</precio>
+            <tipo>Over-ear</tipo>
+        </producto>
+        <producto id="302">
+            <nombre>Cargador Portátil USB-C</nombre>
+            <marca>MarcaD</marca>
+            <precio>39.99</precio>
+            <compatibilidad>Universal</compatibilidad>
+        </producto>
+    </categoria>
+</productos_informaticos>
