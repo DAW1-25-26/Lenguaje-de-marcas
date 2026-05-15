@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="recetas.css" type="text/css"?>
-<!DOCTYPE recetas SYSTEM "receta.dtd">
-<recetas>
+<recetas
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="receta.xsd">
 	<receta>
 		<nombre>Sopa de cebolla</nombre>
 		<comensales>4</comensales>
